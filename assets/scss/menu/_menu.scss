@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    padding: 20px;
+    padding-top: 15px;
+    top: 150px;
+
+    #close {
+        width: auto;
+        margin-left: auto;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
